@@ -3,7 +3,7 @@
 This repo is simple a static website for my self introduction whose reference is from [RyanFitzgerald/devportfolio](https://github.com/RyanFitzgerald/devportfolio#projects-section).
 
 
-### Images
+## Images
 
 By default, the template comes with a number of images, some of which can be kept and others which act simply as placeholders and should be switched. The template contains the following:
 
@@ -12,7 +12,7 @@ By default, the template comes with a number of images, some of which can be kep
 * Project image - these are the images associated with the projects under the project section. These are simply placeholders and should either be replaced or removed.
 
 
-### Experience Section
+## Experience Section
 
 The experience section creates a vertical timeline with all your relevant experience. The code for the timeline creation can be found within `js/scripts.js` and is an adaptaion of [RyanFitzgerald/vertical-timeline](https://github.com/RyanFitzgerald/vertical-timeline).
 
@@ -37,7 +37,7 @@ To add additional section, simply add additional nested divs under the main wrap
 
 To add additional section, simply add additional `.education-block` elements.
 
-### Contact Section
+## Contact Section
 
 Since the page is static, I opted to use the awesome Formspree to allow for a contact form without the need for anything else. To use it, you must have the page hosted on a server (loading a basic HTML page won't work) where a referrer header is generated. Also, simply add the email to the action. An example is as follows:
 
@@ -53,6 +53,6 @@ For more information on configuration of the contact form or dealing with errors
 
 For a quick tutorial about formspree, check out this [tutsplus tutorial](https://webdesign.tutsplus.com/tutorials/quick-tip-add-a-formspree-form-to-your-static-sites--cms-23870) that covers different aspects and features of the form tool.
 
-### Footer Section
+## Footer Section
 
 The Footer contains an optional copyright where you can place your name as well as an unordered list of all of your social or coding related profiles. By default it contains Github, Stack Overflow, Facebook, Twitter, and Google Plus. You can add or remove them easily and simply use the Font Awesome icon associated with the social profile you wish to use. For a list of all icons, [click here](http://fontawesome.io/icons/).
