@@ -104,6 +104,7 @@
         <div id="experience-timeline">
             <div data-date="January 2019 – August 2019">
                 <h3>Abcam</h3>
+                <h4 style="float: right;">Cambridge, MA, US</h4>
                 <h4>Software Engineer Co-op</h4>
                 <ul>
                     <li>Built a <b>MEAN (MongoDB, Express, Angular, NodeJS)</b> stack web application for the chemical engineers which provided instructions to the robots in the manufacturing area. The web application communicated with internal mongo database and a central server which was developed in python in another project.</li>
@@ -116,6 +117,7 @@
 
             <div data-date="June 2015 – August 2015">
                 <h3>Microsystem & Terahertz Research Center</h3>
+                <h4 style="float: right;">Chengdu, Sichuan, China</h4>
                 <h4>Test Engineer Intern</h4>
                 <ul>
                     <li>Took part in the innovative research on the CMOS millimeter and submillimeter-wave integrated circuit.</li>
@@ -134,7 +136,7 @@
             <h3>Northeastern University, Boston, MA, US</h3>
             <span class="education-date">Sept 2017 - Dec 2019</span>
             <h4>Master of Science in Computer Software Engineer</h4>
-            <ul> Relevant Courses:
+            <ul> <b>Relevant Courses:</b>
                 <li>Program Structure & Algorithms</li>
                 <li>Data Management and Database Design</li>
                 <li>Enterprise Software Design (RIA Design/J2EE)</li>
@@ -167,6 +169,23 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
+                        <img src="images/wordexpress.png" style="width: 300px; height: 300px;"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>AWS WordPress Personal Blog</h3>
+                        <ul>
+                            <li>Applied WordPress (a Content Management System) with <b>PHP</b> and <b>MySQL</b> to build an AWS live blog.</li>
+                            <li>Created <b>VPC, EC2</b> instance, <b>RDS</b> and <b>SNS</b>. Managed <b>ELB</b> for AutoScaling: increased group size when CPU Utilization was more than 80% and decreased that when less than 30%. Completed the personal domain with <b>Route53</b> and GoDaddy.com. Used <b>CloudWatch</b> to set alarms and OpenVPN to secure the remote access.</li>
+                        </ul>
+                        <a href="http://guozhi-tang.com/" target="_blank">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
                         <img src="images/Medical.png" style="width: 300px; height: 300px;"/>
                     </div>
                     <!-- End .project-image -->
@@ -177,6 +196,25 @@
                             <li>Applied <b>Maven</b> to build the project. Used <b>jQuery</b> as well as Bootstrap for the front-end framework. Developed back-end by using <b>Spring</b> and <b>Hibernate</b> frameworks. Designed database by using <b>MySQL</b>.</li>
                             <li>Settled different levels of users for different functionalities. Only administrator level users such as physicians and suppliers could edit the medical history or the inventory.</li>
                         </ul>
+                        <a href="https://github.com/GuozhiTang/MedicalShopSystem" target="_blank">View Project on Github</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/BGApp.png" style="width: 300px; height: 300px;"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Genetic Algorithm Application</h3>
+                        <ul>
+                            <li>Genetic Algorithm is to model the search for a solution in the same way that organisms in nature are adapted to their environment and lifestyle. This application is to show the genetic process for trees with <b>Java GUI</b>.</li>
+                            <li>Used <b>Swing</b> components to build <b>Java GUI</b>. Created three rules for breeding with angles and lengths for branches.</li>
+                            <li>Application started with generation 0 from which successive generations were bred. In each generation new organisms were given birth to which were based, genetically, on the organisms which were fit for rules.</li>
+                        </ul>
+                        <a href="download/Biological Growth.jar" download>Download Project in .jar</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -194,7 +232,7 @@
                             <li>Wrote the programs of the main electronic control system using C with Arduino; designed and fabricated the 3-D mechanical structure model with SOLIDWORKS.</li>
                             <li>The system could detect and record the active angle range for the wooden wrist with gyroscope. Then do the rehabilitation to make the wrist have the ability to rotate in the normal range gradually.</li>
                         </ul>
-                        <a href="#">View Project PowerPoint</a>
+                        <a href="download/FYP Presentation_Guozhi Tang_2109630_Final.pdf" target="_blank">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -211,24 +249,6 @@
                             <li>Designed a smart car that could: 1. automatically move along a specific route and detect obstacles by itself; 2. identify color modules and run according to specific colors; 3. recognize the bread on the route and push it into the lake.</li>
                             <li>Wrote the programs of the main board and all drive components with Keil; drew the PCB board on OrCAD.</li>
                             <li>Achieved image and color identification with the camera and the color sensor; used the Arduino AS-4WD platform for compilation.</li>
-                        </ul>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>The Maglev Train Experimental Instrument (UESTC-Enterprise Cooperative Project)</h3>
-                        <ul>
-                            <li>Design an automatic control system that enables the maglev vehicle model to move stably.</li>
-                            <li>Adjust the height of the vehicle and track by regulating the magnetic force of the vehicle’s electromagnet using PID algorithm and LDC1614 inductance-to-digital converter; keep the vehicle levitating at a fixed height.</li>
-                            <li>When the load is increased or reduced, the maglev device will make adjustment automatically to guarantee the required levitation height. </li>
-                            <li>Add such functions as: a) levitation distance display; b) voice alarm for overload; c) recording all data in the local storage device; d) real-time communication with the control center about the running state.</li>
                         </ul>
                     </div>
                     <!-- End .project-info -->
@@ -283,7 +303,7 @@
     <!-- End #skills -->
 
     <div id="contact">
-        <h2>Get in Touch</h2>
+        <h2>Contact</h2>
         <div id="contact-form">
             <form method="POST" action="https://formspree.io/tangguozhi53@gmail.com">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
