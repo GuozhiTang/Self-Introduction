@@ -2,6 +2,8 @@
 
 This repo is simple a static website for my self introduction whose reference is from [RyanFitzgerald/devportfolio](https://github.com/RyanFitzgerald/devportfolio#projects-section).
 
+This application was deployed on github.io: [GuozhiTang_SelfIntro](https://guozhitang.github.io/GuozhiTang_SelfIntro/)
+
 
 ## Images
 
